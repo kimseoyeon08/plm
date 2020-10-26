@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+/*reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    color: inherit;
+}
+
+
+
+/*layout*/
+body {
+    background-color:rgba(134, 80, 80, 0.582);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    z-index: -10;
+    text-decoration: none;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+nav{
+    height: 60px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 60px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a9db80+0,96c56f+100;Green+3D+%232 */
+    background:  rgba(219, 102, 102, 0.582) ; /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(219, 102, 102, 0.582) 0%,  rgba(219, 102, 102, 0.582) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(219, 102, 102, 0.582) 0%, rgba(219, 102, 102, 0.582) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(219, 102, 102, 0.582) 0%, rgba(219, 102, 102, 0.582)100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9db80', endColorstr='#96c56f',GradientType=0 ); /* IE6-9 */
+    }
+    #main-nav{
+        list-style: none;
+        margin: 0;
+        text-decoration: none;
+             }
+#main-nav .span{display: inline-block;
+                color:white;
+                margin: 10px 20px;
+                margin-right: 40px;
+                
+                }
+.outer-menu-item{
+                display: inline-block;
+                margin: 5px 20px;
+                position: relative;
+                    
+                }
+.outer-menu-item:hover{
+                    background: rgb(196, 186, 46);
+                    color:rgb(90, 76, 16);
+                }
+.menu-title{
+            display: block;
+            height: 30px; line-height: 30px;
+            text-align: center;
+            padding: 5px 20px;
+            }
+.inner-menu {
+            display: none;
+            position: absolute;
+            top: 40px; left: 0;
+            width: 100%;
+            background:rgba(196, 186, 46, 0.589);
+            box-shadow: 0 2px 6px rgba(5,5, 5, 0.9);
+            z-index: 1000;
+            text-align: center;
+            list-style: none;
+            }
+.inner-menu-item>a{
+                    display: block;
+                    padding: 5px 10px;
+                    color: black;
+                }
+.inner-menu-item>a:hover{
+                    background:rgba(230, 194, 36, 0.685);
+                    color: white;
+                }
+.wrap {
+        width: 1400px;/*컨테이너 너비*/
+        height: 100%;
+        }
+.container {
+            width: 100%;
+            margin: 0 auto;
+            text-decoration: none;
+}
+.header {
+    margin: 40px 50px;
+    color:rgba(116, 80, 163, 0.767);
+    font-size: 30px;
+    display: inline-block;
+}
+.main {
+    width: 620px; /*너비*/
+    padding: 20px;/*패딩*/
+    /*float: left;왼쪽으로 플로팅*/
+    margin-bottom: 20px;/*아래 요소와의 간격*/
+    background-color: rgba(112, 108, 108, 0.616);
+    border: 1px solid #ccc;/*<div>요소에 테두리 표시*/
+    position: relative;
+    }
+.img{
+    width: 620px; /*너비*/
+    padding: 20px;/*패딩*/
+    float: right;/*오른쪽으로 플로팅*/
+    margin-bottom: 20px;/*아래 요소와의 간격*/
+    background-color: rgba(112, 108, 108, 0.616);
+    border: 1px solid #ccc;/*<div>요소에 테두리 표시*/
+    /*position: absolute;
+    top: 70%;
+    right: 15%;*/
+}
+footer {
+    clear: both;
+    width: 100%;
+    padding: 40px 0px;
+    background-color: rgba(114, 38, 185, 0.438);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
